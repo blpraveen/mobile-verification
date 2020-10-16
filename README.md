@@ -1,5 +1,5 @@
 ## Introduction
-Many web applications require users to verify their mobile numbers before using the application. Rather than forcing you to re-implement this on each application, this package provides convenient methods for sending and verifying mobile verification requests.
+This Package allows you to verfiy mobile.
 
 ## Installation
 
