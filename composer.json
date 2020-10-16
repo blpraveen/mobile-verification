@@ -1,0 +1,26 @@
+{
+    "name": "blpraveen/mobile-verification",
+    "description": "verify user mobile number",
+    "authors": [
+        {
+            "name": "B L Praveen",
+            "email": "blpraveen2004@gmail.com"
+        }
+    ],
+	"autoload": {
+	      "psr-4": {
+            "Blpraveen\\MobileVerification\\": "src/"
+        }
+    },
+	"extra": {
+		"laravel": {
+		  "providers": [
+			"blpraveen\\mobile-verification\\MobileVerificationServiceProvider"
+		  ]
+		}
+	},
+	"config": {
+		"discard-changes": true
+	},	
+    "minimum-stability": "dev"
+}
